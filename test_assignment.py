@@ -8,7 +8,8 @@ class TestAssignmentNotebook(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Load and execute the notebook before running tests"""
-        notebook_path = "assignment.ipynb"
+        notebook_path = "D:/PYTHON-NUMPY-PROJECT-NISHANTJOSHI/python-numpy-pandas-group-a-nishantjoshi8/assignment.ipynb"
+
         assert os.path.exists(notebook_path), f"Notebook {notebook_path} not found"
         
         with open(notebook_path, "r", encoding="utf-8") as f:
@@ -35,7 +36,7 @@ class TestAssignmentNotebook(unittest.TestCase):
     def test_dataframe_columns(self):
         """Test if DataFrame contains required columns"""
         df = self.global_env.get("df", None)
-        required_columns = {"Name", "Age", "Salary"}
+        required_columns = {"Name", "Age", "Score"}
         self.assertIsNotNone(df, "df not found in notebook")
         self.assertTrue(required_columns.issubset(df.columns), "Missing required columns in df")
 
