@@ -8,7 +8,11 @@ class TestAssignmentNotebook(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Load and execute the notebook before running tests"""
+<<<<<<< HEAD
         notebook_path = "D:/old_project/python-numpy-pandas-group-a-nishantjoshi8/assignment.ipynb"
+=======
+        notebook_path = "D:/PYTHON-NUMPY-PROJECT-NISHANTJOSHI/python-numpy-pandas-group-a-nishantjoshi8/assignment.ipynb"
+>>>>>>> 2d9357fbf46499909ac1cb507287ed68f906d7bc
 
         assert os.path.exists(notebook_path), f"Notebook {notebook_path} not found"
         
