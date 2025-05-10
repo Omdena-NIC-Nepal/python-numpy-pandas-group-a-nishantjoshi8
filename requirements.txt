@@ -102,7 +102,7 @@ requests==2.28.1
 tqdm
 nbformat
 
-# Climate/Niche Tools
+# Climate/Niche Toolsi
 pythermalcomfort
 climate_indices
 
