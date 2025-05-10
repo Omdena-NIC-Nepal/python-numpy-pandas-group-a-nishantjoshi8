@@ -119,8 +119,7 @@ print(series)
 
 
 # solution
-df = pd.read_csv('D:/python-numpy-project-nishantjoshi/python-numpy-pandas-group-a-nishantjoshi8/data/data.csv')
-
+df= pd.read_csv('data/data.csv')
 df
 
 
